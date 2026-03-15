@@ -1,5 +1,6 @@
 # Azure Functions Local Development Quick Reference
 
+
 ## 1. Start Azurite (Storage Emulator)
 ```
 npx azurite --skipApiVersionCheck
@@ -112,6 +113,7 @@ curl --location 'https://func-demo-apim.azure-api.net/orders/SubmitOrder' \
   "CustomerId": "CUST-002",
   "Amount":  522
 }'
+```
 
 ## 8. OrderProcessing Function App Trigger Flow
 
